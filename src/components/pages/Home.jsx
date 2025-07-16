@@ -60,9 +60,8 @@ const Home = () => {
               </h1>
               <p className="text-xl mb-8 text-white/90">
                 Book your ride now with professional drivers, transparent pricing, and 24/7 availability.
-                <button onClick={() => {
-                  let temp = {};
-                  console.log(temp.length());
+<button onClick={() => {
+                  // Debug functionality removed
                 }}>Click Me</button>
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
